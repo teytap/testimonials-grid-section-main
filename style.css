@@ -6,15 +6,15 @@ body {
   font-weight: 500;
 }
 main {
-  margin: 150px 120px;
+  margin: 180px 150px;
   height: 100%;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto;
 }
-main > div {
-  padding: 30px;
+figure {
+  padding: 20px;
   border-radius: 10px;
   margin: 10px;
   box-shadow: 3px 3px 20px rgb(216, 215, 215);
@@ -23,11 +23,18 @@ p {
   opacity: 0.7;
   line-height: 20px;
 }
-.container {
+blockquote {
+  padding: 0px;
+  margin: 0px;
+}
+figcaption {
   display: grid;
   grid-template-columns: 60px 1fr;
 }
-
+.bigger {
+  font-size: 18px;
+  font-weight: bold;
+}
 .daniel {
   background: hsl(263, 55%, 52%);
   background-image: url("images/bg-pattern-quotation.svg");
